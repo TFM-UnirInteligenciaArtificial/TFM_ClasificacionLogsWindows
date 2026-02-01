@@ -16,3 +16,25 @@ ipython_config.py
 #   git rm -r .ipynb_checkpoints/
 
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Datos (¡Muy Importante no subir CSVs reales!) ---
+*.csv
+*.xlsx
+*.xml
+data/
+
+# --- IDEs y Sistema ---
+.vscode/
+.idea/
+.DS_Store
