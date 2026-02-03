@@ -1,0 +1,12 @@
+{
+  "shell_port": 36273,
+  "iopub_port": 34901,
+  "stdin_port": 55407,
+  "control_port": 60571,
+  "hb_port": 38921,
+  "ip": "127.0.0.1",
+  "key": "3f21fec7-121abcfa9e57bf0b6fca2de9",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "conda-env-tensorflow-tensorflow"
+}

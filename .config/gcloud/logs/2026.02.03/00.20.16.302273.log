@@ -1,0 +1,10 @@
+2026-02-03 00:20:16,325 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2026-02-03 00:20:16,329 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2026-02-03 00:20:16,331 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--format: "value(projectNumber)", PROJECT_ID_OR_NUMBER: "ninth-osprey-302317"]
+2026-02-03 00:20:16,357 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2026-02-03 00:20:16,441 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/ninth-osprey-302317?alt=json HTTP/11" 200 None
+2026-02-03 00:20:16,442 DEBUG    root            Chosen display Format:default value(projectNumber)
+2026-02-03 00:20:16,443 INFO     root            Display format: "default value(projectNumber)"
+2026-02-03 00:20:16,478 INFO     ___FILE_ONLY___ 1017310996475
+
+2026-02-03 00:20:16,484 DEBUG    root            SDK update checks are disabled.
